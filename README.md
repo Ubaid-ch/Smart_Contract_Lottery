@@ -13,4 +13,4 @@ This code is to create a proveably random smart contract lottery.
 
 4. Chainlink Automation should trigger the lottery draw regularly.
 ## To deploy the source code
-ETHERSCAN_API_KEY=3MBV65PMRCAAF55BS21H1TAU63UPJGDNE9 NETWORK=sepolia  forge script script/DeployLottery.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+ETHERSCAN_API_key NETWORK=sepolia  forge script script/DeployLottery.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
